@@ -16,15 +16,15 @@ public class CreateTables {
 	Connection con = ConnectionClass.getConnection();
 
 	public CreateTables() {
-		// createOrder_DetailTable();//prob
-		// createOrder_TrackingMasterTable();
-		// createStock_MasterTable();
-		// createOrderHeader();//probn
-		// createCustomerMasterTable(); // syntax error
-		// createMaterialMasterTable(); //prob
-		// createPlantMasterTable(); // arrayoutofbounds
-		// createStateMasterTable(); //success
-		// createStatusMasterTable(); //success
+//		 createOrder_DetailTable();
+//		 createOrder_TrackingMasterTable();
+//		 createStock_MasterTable();
+//		 createOrderHeader();
+//		 createCustomerMasterTable();
+//		 createMaterialMasterTable();
+//		 createPlantMasterTable();
+//		 createStateMasterTable();
+//		 createStatusMasterTable();
 	}
 
 	public boolean createCustomerMasterTable() {

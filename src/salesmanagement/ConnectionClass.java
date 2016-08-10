@@ -10,8 +10,8 @@ public class ConnectionClass {
 
 	public static Connection getConnection() {
 		try {
-			Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-			con = DriverManager.getConnection("jdbc:odbc:abc");
+			Class.forName("com.mysql.jdbc.Driver");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sales","root","");
 		} catch (ClassNotFoundException | SQLException ex) {
 			ex.printStackTrace();
 		}
